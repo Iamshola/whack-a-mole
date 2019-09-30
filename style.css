@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 24px;
+  background-color:#916029;
+
+}
+h1{
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid;
+  padding: 10px 0;
+}
+
+button{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 190px;
+  border-radius: 20px;
+  background-color: #ff9999;
+  color: white;
+}
+
+.game {
+  width: 600px;
+  height: 600px;
+  margin: auto;
+
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.grid div {
+  width: calc(100% / 3);
+  height: calc(100% / 3);
+
+}
+.hole{
+  background-image: url("https://res.michaelwhyte.ca/dirt.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: width 20s;
+}
+
+.mole {
+  background-image: url(mole.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: width 20s;
+
+}
