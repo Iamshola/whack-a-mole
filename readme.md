@@ -1,7 +1,7 @@
 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
 
 # Software Engineering Immersive: Whack-A-Mole
-###### Play Game [Here!]( )
+###### Play Game [Here!](https://iamshola.github.io/whack-a-mole/)
 
 ### Introduction
 
@@ -29,7 +29,11 @@ Your task is to create the classic children's game Whack-a-Mole using HTML, CSS 
 * The game should run for 60 seconds
 
 
-**Note:** Remember to wrap your code in a `DOMContentLoaded` event listener.
+### Review
+This was a piece of homework completed as part of my GA course. I would have loved to have improved this game by adding in a better reset function that doesn't reload the whole page.
+
+### Timeframe:
+1/2 a day
 
 
 
